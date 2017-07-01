@@ -1,4 +1,5 @@
 $columns : 12;
+$padding-base: 10px;
 $column-width : 100%/$columns;
 $breakpoints : (xs : 350px, sm : 550px, md : 768px, lg : 992px, xl : 1200px );
 @function column-width($column){

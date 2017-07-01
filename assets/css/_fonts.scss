@@ -1,1 +1,22 @@
 $font-base: 'Roboto', sans-serif;
+$title-font: 'Product Sans', sans-serif;
+$tag-font: 'Roboto Mono', monospace;
+$font-size: 16px;
+$line-height: 1.5;
+
+
+@function fontSize($font-size, $plus) {
+  @return $font-size+$plus;
+}
+
+
+$limit: 8;
+$i: 2px;
+
+@while $limit > 0 {
+  .h#{$limit} {
+    font-size: fontSize($font-size, $i);
+  }
+  $i: $i + 2;
+  $limit: $limit - 1;
+}
