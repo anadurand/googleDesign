@@ -204,18 +204,24 @@
     width: 100%; } }
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0; }
+  padding: 0;
+  margin: 0; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Product Sans", sans-serif;
   color: #424242;
-  font-weight: 400; }
+  font-weight: 400;
+  margin: 20px 0; }
 
 p {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
   color: #414549; }
+
+.tag {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  color: #5f6368; }
 
 .center-block {
   margin: 0 auto; }
@@ -230,6 +236,9 @@ hr {
 
 .uppercase {
   text-transform: uppercase; }
+
+.margin-b-20 {
+  margin-bottom: 20px; }
 
 header nav ul {
   display: flex;
